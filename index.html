@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Fanny Cruz</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+<body>
+<html lang="en">
+<body>
+  <div class="container">
+    <nav id="header">
+      <div class="nav-logo">
+        <!--<p class="nav-name">Logo</p>-->
+        <img src="logo.png" alt="Logo" class="nav-img">
+      
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="#home" class="nav-link active-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#about" class="nav-link">About</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#projects" class="nav-link">Projects</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#contact" class="nav-link">Contact</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="mode">
+        <div class="moon-sun" id="toggle-switch">
+            <i class="fa fa-moon" id="moon"></i>
+            <i class="fa fa-sun" id="sun"></i>
+        </div>
+    </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+ 
+    <main class="wrapper">
+      <section class="featured-box" id="home">
+        <div class="featured-text">
+          <div class="hello">
+            <p>Hello I'm a</p>
+          </div>
+          <div class="featured-name">
+            <span class="typedText"></span>
+          </div>
+          <div class="featured-text-info">
+            <p>My name is Fanny Cruz!</p>
+          </div>
+          <div class="featured-text-btn">
+            <a href="#contact"><button class="btn blue-btn">Hire Me</button></a>
+            <a href="resume.pdf" download="Fanny_Cruz_Resume.pdf" target="_blank">
+              <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </a>
+          </div>
+          <div class="social_icons">
+            <div class="icon_circle"></div>
+            <div class="icon">
+              <a href="https://www.instagram.com/fannyycruzzz/" target="_blank" rel="noopener noreferrer">
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+            <div class="icon">
+              <a href="https://www.linkedin.com/in/fanny-cruz-861323229/" target="_blank" rel="noopener noreferrer">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+            </div>
+            <div class="icon"><i class="uil uil-behance-alt"></i></div>
+            <div class="icon">
+              <a href="https://github.com/Fannycruz1" target="_blank" rel="noopener noreferrer">
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="featured-image">
+          <div class="image">
+            <img src="mainshot.jpg" alt="">
+          </div>
+        </div>
+
+      </section>
+      <!-- -------------- ABOUT BOX ---------------- -->
+      <section class="section" id="about">
+        <div class="top-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="about-info">
+              <figure class="about-me">
+                <figcaption>
+                  <img src="profile.png" alt="" class="profile" />
+                  <h2>Full Stack developer</h2>
+                  <p>My name is Fanny! I'm a student with experience in Software and IT management</p>
+              </figure>
+              <a href="#contact"><button class="about-me-btn">Hire Me</button></a>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-box">
+                <span class="title">HTML</span>
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                        <span class="tooltip">80%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">CSS</span>
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+              <span class="title">Python</span>
+              <div class="skill-bar">
+                  <span class="skill-per Python">
+                      <span class="tooltip">90%</span>
+                  </span>
+              </div>
+          </div>
+            <div class="skill-box">
+                <span class="title">JavaScript</span>
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                        <span class="tooltip">40%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+              <span class="title">PHP</span>
+              <div class="skill-bar">
+                  <span class="skill-per php">
+                      <span class="tooltip">20%</span>
+                  </span>
+              </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------- PROJECT BOX ---------------- -->
+
+      <section class="section" id="projects">
+        <div class="top-header">
+          <a href="https://github.com/Fannycruz1" target="_blank" rel="noopener noreferrer">
+            <h1>Projects</h1>
+          </a>
+        </div>
+        <div class="project-container">
+
+          <div class="project-box">    
+            <i class="uil uil-briefcase-alt"></i>
+            <h3>Completed</h3>
+            <label>15+ Finished Projects</label>
+          </div>
+          
+          <div class="project-box">
+            <i class="uil uil-users-alt"></i>
+            <h3>Experience</h3>
+            <label>Internships and Work Experience</label>
+          </div>
+          <div class="project-box">
+            <i class="uil uil-award"></i>
+            <h3>Awards</h3>
+            <label>Acedemic Awards and Projects </label>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------- CONTACT BOX ---------------- -->
+
+      <section class="section" id="contact">
+        <div class="top-header">
+          <h1>Let's Work Together</h1>
+          <span>Contact me here!</span>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+              <p><i class="uil uil-envelope"></i>Email:FannyCruz41@outlook.com</p>
+              <p><i class="uil uil-phone"></i> Phone:4079137506</p>
+            </div>
+          </div>
+          <div class="col">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <div class="form-inputs">
+                <input type="hidden" name="access_key" value="3a45d7c1-8a7d-4b87-84bb-f2c5448e7a56">
+                <input type="text" name="name" class="input-field" placeholder="Your Name" required>
+                <input type="email" name="email" class="input-field" placeholder="Your Email" required>
+              </div>
+              <div class="text-area">
+                <input type="text" name="subject" class="input-subject input-field" placeholder="Subject" required>
+                <textarea name = "message" placeholder="Message" class="text-area input-field" required></textarea>
+              </div>
+              <div class="form-button">
+                <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+      <div class="middle-footer">
+        <ul class="footer-menu">
+          <li class="footer_menu_list">
+            <a href="#home">Home</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#about">About</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="footer_menu_list">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-social-icons">
+        <div class="icon">
+          <a href="https://www.instagram.com/fannyycruzzz/" target="_blank" rel="noopener noreferrer">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/fanny-cruz-861323229/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in icon"></i>
+          </a>
+        </div>        
+        <div class="icon"><i class="uil uil-dribbble"></i></div>
+        <div class="icon">
+          <a href="https://github.com/Fannycruz1" target="_blank" rel="noopener noreferrer">
+            <i class="uil uil-github-alt"></i>
+          </a>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Fanny Cruz</a> - All rights reserved 2024</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- ----- TYPING JS Link ----- -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- ----- SCROLL REVEAL JS Link----- -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
