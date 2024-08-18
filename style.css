@@ -283,7 +283,7 @@ i {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0px 1px 5px 3px #8749f2;
+  box-shadow: 0px 1px 3px 5px #8749f2;
   cursor: pointer;
 }
 
@@ -293,26 +293,23 @@ i {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  animation: iconSlide 4s infinite alternate;
+  animation: iconSlide 3s infinite alternate;
 }
 
 @keyframes iconSlide {
-  25% {
-      border: 2px solid #e6d12e;
+  33.33% {
+      border: 2px solid #e38fe7;
       left: 0px;
   }
-  50% {
-      border: 2px solid #c40101;
+  66.66% {
+      border: 2px solid #5eb2e3;
       left: 70px;
   }
-  75% {
-      border: 2px solid #8749f2;
+  100% {
+      border: 2px solid #6ee185;
       left: 145px;
   }
-  100% {
-      border: 2px solid #47ea15;
-      left: 216px;
-  }
+  
 }
 
 .social_icons:hover .icon_circle {
