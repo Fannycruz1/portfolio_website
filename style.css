@@ -50,10 +50,10 @@ body.dark {
 }
 
 .nav-img {
-  width: 15%;
+  width: 18%;
   max-width: 100%; /* Ensures the logo doesn't exceed the container width */
   height: auto; /* Maintains the aspect ratio */
-  display: block; /* Ensures that the image behaves as a block-level element */
+  display: flex; /* Ensures that the image behaves as a block-level element */
   margin: 0; /* Centers the logo horizontally */
 }
 
@@ -88,9 +88,13 @@ nav {
   transition: 0.3s;
   z-index: 100;
 }
+
 .nav-logo {
-  position: relative;
+  position: fixed;
+  /*
+  left:0 ; */
 }
+
 /* This is added code */
 
 /* This is the end of the added code */
