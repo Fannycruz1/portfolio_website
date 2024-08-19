@@ -8,10 +8,19 @@ function myMenuFunction() {
     menuBtn.className = "nav-menu";
   }
 }
+ /* added code */
+const textarea = document.getElementById('messageBox');
 
+function adjustTextareaHeight() {
+  textarea.style.height = 'auto'; // Reset height to auto to shrink if necessary
+  textarea.style.height = textarea.scrollHeight + 'px'; // Set height to the scrollHeight
+}
 
+textarea.addEventListener('input', adjustTextareaHeight);
 
+adjustTextareaHeight(); // Initial adjustment for pre-filled content
 
+/* added code */
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText", {

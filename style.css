@@ -92,7 +92,7 @@ nav {
 .nav-logo {
   position: fixed;
   
-  left:0 ; 
+  left:0 ;
 }
 
 /* This is added code */
@@ -122,6 +122,11 @@ nav {
 }
 .nav-menu-btn {
   display: none;
+  /* new code added below */
+  position:absolute;               /* Adjust the vertical position */
+  right: 10px;             /* Adjust the horizontal position */
+  z-index: 1000; 
+
 
 }
 .nav-menu-btn i {
@@ -656,17 +661,43 @@ h3 {
 }
 
 .textarea  {
+/*
   width: 100%;
   height: 250px;
   background: transparent;
   border: 2px solid #aaa;
   color: var(--text-color);
   border-radius: 10px;
-  padding: 15px 20px;
+  padding: 20px;
   outline: none;
   resize: none;
-}
+  */
+  
+  /*
+  min-width: 100%;
+  max-width: 100%;
+  */
+  
+  /*min-height: 100px;  Set a minimum height for the textarea */
+  /*max-height: 500px;  Optional: Set a maximum height to avoid excessive expansion */
+  /* Prevent manual resizing by the user */
+  /*
+  overflow: hidden; 
+  margin-bottom: 10px;
+  */
 
+  width: 100%;
+  height: 55px;
+  background: transparent;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  padding-inline: 20px;
+  margin-bottom: 10px;
+  outline: none;
+
+  
+
+}
 .input-subject {
   width: 100%;
   height: 55px;
