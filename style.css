@@ -129,6 +129,10 @@ nav {
 
 
 }
+
+
+
+
 .nav-menu-btn i {
   font-size: 28px;
   cursor: pointer;
@@ -161,7 +165,7 @@ nav {
   margin-right: -2%;
 }
 .moon-sun {
-  position: relative;
+  position: flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,6 +174,7 @@ nav {
   border-radius: 30px;
   cursor: pointer;
   background: var(--mode-color);
+
 }
 
 .moon-sun :is(#moon,#sun){
