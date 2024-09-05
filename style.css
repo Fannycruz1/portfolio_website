@@ -152,6 +152,9 @@ nav {
 }
 
 
+
+
+
 .mode {
   display: flex;
   align-items: center;
@@ -544,7 +547,16 @@ h3 {
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
+
 }
+
+a {
+  color: inherit;
+  
+}
+
+
+
 .project-box {
   position: relative;
   display: flex;
