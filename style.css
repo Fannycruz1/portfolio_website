@@ -126,6 +126,7 @@ nav {
   position:absolute;               /* Adjust the vertical position */
   right: 10px;             /* Adjust the horizontal position */
   z-index: 1000; 
+  line-height: 3.25;
 
 
 }
@@ -162,7 +163,7 @@ nav {
 .mode {
   display: flex;
   align-items: center;
-  margin-right: -2%;
+  margin-right: -10%;
 }
 .moon-sun {
   position: flex;
@@ -833,6 +834,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   .featured-box {
     flex-direction: column;
@@ -885,7 +887,7 @@ footer {
   .mode {
     display: flex;
     align-items: center;
-    margin-left: 60%;
+    margin-left: 95%;
 }
 }
 
@@ -905,6 +907,6 @@ footer {
     width: 100%;
   }
   .mode {
-    margin-left: 50%;
-  
+    margin-left: 90%;
+  /* 50%  */
 }}
