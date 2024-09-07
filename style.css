@@ -167,6 +167,8 @@ nav {
   /* used to be 10% */
   margin-right: -7%;
 }
+
+
 .moon-sun {
   position: flex;
   display: flex;
@@ -910,6 +912,6 @@ footer {
     width: 100%;
   }
   .mode {
-    margin-left: 90%;
+    margin-left: 80%;
   /* 50%  */
 }}
