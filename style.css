@@ -195,6 +195,14 @@ body.dark #moon {
   opacity: 0;
 }
 
+/* New css code for input in dark mode */
+
+body.dark .input-field, body.dark .text-area {
+
+  color: #fff;
+
+}
+
 
 /* ----- WRAPPER DESIGN ----- */
 .wrapper {
