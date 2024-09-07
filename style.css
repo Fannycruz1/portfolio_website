@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -126,6 +126,7 @@ nav {
   position:absolute;               /* Adjust the vertical position */
   right: 10px;             /* Adjust the horizontal position */
   z-index: 1000; 
+  /* added code */
   line-height: 3.25;
 
 
@@ -163,7 +164,8 @@ nav {
 .mode {
   display: flex;
   align-items: center;
-  margin-right: -10%;
+  /* used to be 10% */
+  margin-right: -9%;
 }
 .moon-sun {
   position: flex;
@@ -887,7 +889,8 @@ footer {
   .mode {
     display: flex;
     align-items: center;
-    margin-left: 95%;
+    /* used to be 95% */
+    margin-left: 90%;
 }
 }
 
