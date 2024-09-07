@@ -165,7 +165,7 @@ nav {
   display: flex;
   align-items: center;
   /* used to be 10% */
-  margin-right: -9%;
+  margin-right: -7%;
 }
 .moon-sun {
   position: flex;
