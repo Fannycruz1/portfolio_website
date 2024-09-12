@@ -915,3 +915,8 @@ footer {
     margin-left: 80%;
   /* 50%  */
 }}
+
+#messageBox {
+  min-height: 210px; /* Set an initial minimum height for the message box */ /* Prevent default resize control (optional, based on preference) */
+  /*overflow: hidden; /* Hide scrollbars when not necessary */ 
+}
