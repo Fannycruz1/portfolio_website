@@ -14,6 +14,7 @@ const textarea = document.getElementById('messageBox');
 function adjustTextareaHeight() {
   textarea.style.height = 'auto'; // Reset height to auto to shrink if necessary
   textarea.style.height = textarea.scrollHeight + 'px'; // Set height to the scrollHeight
+  
 }
 
 textarea.addEventListener('input', adjustTextareaHeight);
